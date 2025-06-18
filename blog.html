@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great's Blog | Blog List</title>
+    <link rel="stylesheet" href="blog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/67239c1e3d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <header>
+            <img src="images/GREAT’S BLOG LOGO 1.png" class="logo-1" alt="logo">
+
+            <div id="menu-wrap">
+                 <svg id="menu" width="22" height="22" viewBox="0 0 25 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="25" height="4.28571" fill="black" />
+                <rect y="6.85718" width="25" height="4.28571" fill="black" />
+                <rect y="13.7144" width="25" height="4.28571" fill="black" />
+            </svg>
+            </div>
+           
+        </header>
+
+        <div id="links" class="slide-menu">
+            <img id="close" src="images/Close icon.png" alt="Close">
+            <ul>
+                <li class="normal-link"><a href="index.html" class="main-normal-link">Home</a></li>
+                <li class="normal-link"><a href="blog.html" class="main-normal-link">Blog</a></li>
+                <div class="social-wrap">
+
+                    <li><a href="https://www.linkedin.com/in/orovwode-great-29b86a282" target="_blank"><svg
+                                class="socials" width="18" height="28" viewBox="0 0 28 28" fill="currentColor"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_21_190)">
+                                    <path
+                                        d="M0 2.0055C0 0.89775 0.9205 0 2.05625 0H25.9437C27.0795 0 28 0.89775 28 2.0055V25.9945C28 27.1023 27.0795 28 25.9437 28H2.05625C0.9205 28 0 27.1023 0 25.9945V2.0055ZM8.65025 23.4395V10.7958H4.4485V23.4395H8.65025ZM6.55025 9.0685C8.015 9.0685 8.92675 8.099 8.92675 6.8845C8.9005 5.64375 8.01675 4.7005 6.57825 4.7005C5.13975 4.7005 4.2 5.6455 4.2 6.8845C4.2 8.099 5.11175 9.0685 6.52225 9.0685H6.55025ZM15.1393 23.4395V16.3783C15.1393 16.0003 15.1672 15.6222 15.2792 15.3527C15.582 14.5985 16.2733 13.8162 17.4353 13.8162C18.956 13.8162 19.5632 14.9748 19.5632 16.6758V23.4395H23.765V16.1875C23.765 12.3025 21.693 10.4965 18.928 10.4965C16.6985 10.4965 15.6993 11.7215 15.1393 12.5842V12.628H15.1113L15.1393 12.5842V10.7958H10.9392C10.9917 11.9823 10.9392 23.4395 10.9392 23.4395H15.1393Z"
+                                        fill="currentColor" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_21_190">
+                                        <rect width="28" height="28" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                    </li>
+
+                    <li><a href="https://x.com/Orovwode_Great" target="_blank"><svg class="socials" width="28"
+                                height="23" viewBox="0 0 28 23" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8.7955 22.7512C19.362 22.7512 25.1422 13.996 25.1422 6.41671C25.1446 6.17055 25.1411 5.92438 25.1318 5.67821C26.2567 4.86314 27.2279 3.85463 28 2.69971C26.9484 3.16219 25.8346 3.46762 24.6943 3.60621C25.8958 2.8882 26.7957 1.75823 27.2265 0.426463C26.0982 1.09622 24.8626 1.56573 23.5742 1.81421C22.7083 0.892004 21.5625 0.281069 20.3141 0.0760386C19.0658 -0.128992 17.7848 0.0833256 16.6693 0.680103C15.5539 1.27688 14.6664 2.22481 14.1443 3.37707C13.6222 4.52932 13.4946 5.8216 13.7812 7.05371C11.4969 6.93972 9.26213 6.34656 7.22195 5.31275C5.18177 4.27894 3.38183 2.8276 1.939 1.05296C1.20677 2.31846 0.983413 3.81514 1.31426 5.23928C1.64511 6.66343 2.50538 7.90836 3.7205 8.72146C2.80947 8.69203 1.91834 8.44736 1.12 8.00746V8.08621C1.12223 9.41163 1.58168 10.6957 2.42082 11.7216C3.25995 12.7476 4.42736 13.4526 5.726 13.7177C5.23297 13.8536 4.72366 13.9213 4.21225 13.919C3.85161 13.9227 3.49154 13.8893 3.13775 13.8192C3.50419 14.9607 4.21886 15.9589 5.18146 16.6735C6.14407 17.3882 7.30628 17.7835 8.505 17.804C6.46818 19.4017 3.95368 20.2688 1.365 20.2662C0.908772 20.2696 0.452806 20.2433 0 20.1875C2.62749 21.863 5.67922 22.7526 8.7955 22.7512Z"
+                                    fill="currentColor" />
+                            </svg>
+                    </li>
+
+                    <li><a href="https://github.com/OrovwodeGreat" target="_blank"><svg class="socials" width="28"
+                                height="28" viewBox="0 0 28 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14 0C6.265 0 0 6.265 0 14C0 20.195 4.0075 25.4275 9.5725 27.2825C10.2725 27.405 10.535 26.985 10.535 26.6175C10.535 26.285 10.5175 25.1825 10.5175 24.01C7 24.6575 6.09 23.1525 5.81 22.365C5.6525 21.9625 4.97 20.72 4.375 20.3875C3.885 20.125 3.185 19.4775 4.3575 19.46C5.46 19.4425 6.2475 20.475 6.51 20.895C7.77 23.0125 9.7825 22.4175 10.5875 22.05C10.71 21.14 11.0775 20.5275 11.48 20.1775C8.365 19.8275 5.11 18.62 5.11 13.265C5.11 11.7425 5.6525 10.4825 6.545 9.5025C6.405 9.1525 5.915 7.7175 6.685 5.7925C6.685 5.7925 7.8575 5.425 10.535 7.2275C11.655 6.9125 12.845 6.755 14.035 6.755C15.225 6.755 16.415 6.9125 17.535 7.2275C20.2125 5.4075 21.385 5.7925 21.385 5.7925C22.155 7.7175 21.665 9.1525 21.525 9.5025C22.4175 10.4825 22.96 11.725 22.96 13.265C22.96 18.6375 19.6875 19.8275 16.5725 20.1775C17.08 20.615 17.5175 21.455 17.5175 22.7675C17.5175 24.64 17.5 26.145 17.5 26.6175C17.5 26.985 17.7625 27.4225 18.4625 27.2825C21.2422 26.3449 23.6577 24.5589 25.3687 22.176C27.0797 19.7932 28 16.9335 28 14C28 6.265 21.735 0 14 0Z"
+                                    fill="currentColor" />
+                            </svg>
+                    </li>
+
+                    <li><a href="https://www.instagram.com/orovwodegreat/" target="_blank">
+                            <svg class="socials" width="28" height="28" viewBox="0 0 28 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_21_194)">
+                                    <path
+                                        d="M14 0C10.2007 0 9.723 0.0175 8.23025 0.084C6.7375 0.154 5.72075 0.3885 4.83 0.735C3.89523 1.08557 3.04875 1.63695 2.35025 2.35025C1.63695 3.04875 1.08557 3.89523 0.735 4.83C0.3885 5.719 0.15225 6.7375 0.084 8.225C0.0175 9.72125 0 10.1973 0 14.0018C0 17.8028 0.0175 18.2788 0.084 19.7715C0.154 21.2625 0.3885 22.2792 0.735 23.17C1.09375 24.0905 1.5715 24.871 2.35025 25.6497C3.12725 26.4285 3.90775 26.908 4.82825 27.265C5.72075 27.6115 6.73575 27.8477 8.22675 27.916C9.72125 27.9825 10.1972 28 14 28C17.8028 28 18.277 27.9825 19.7715 27.916C21.2608 27.846 22.281 27.6115 23.1718 27.265C24.1059 26.9142 24.9518 26.3628 25.6497 25.6497C26.4285 24.871 26.9062 24.0905 27.265 23.17C27.6097 22.2792 27.846 21.2625 27.916 19.7715C27.9825 18.2788 28 17.8028 28 14C28 10.1972 27.9825 9.72125 27.916 8.22675C27.846 6.7375 27.6097 5.719 27.265 4.83C26.9144 3.89523 26.3631 3.04875 25.6497 2.35025C24.9513 1.63695 24.1048 1.08557 23.17 0.735C22.2775 0.3885 21.259 0.15225 19.7697 0.084C18.2752 0.0175 17.801 0 13.9965 0H14ZM12.7452 2.5235H14.0018C17.7398 2.5235 18.1825 2.53575 19.6577 2.604C21.0227 2.66525 21.7647 2.8945 22.2582 3.08525C22.911 3.339 23.3782 3.6435 23.8682 4.1335C24.3582 4.6235 24.661 5.089 24.9148 5.7435C25.1073 6.23525 25.3348 6.97725 25.396 8.34225C25.4643 9.8175 25.4783 10.2603 25.4783 13.9965C25.4783 17.7328 25.4643 18.1772 25.396 19.6525C25.3348 21.0175 25.1055 21.7578 24.9148 22.2513C24.6887 22.8583 24.3307 23.4076 23.8665 23.8595C23.3765 24.3495 22.911 24.6523 22.2565 24.906C21.7665 25.0985 21.0245 25.326 19.6577 25.389C18.1825 25.4555 17.7398 25.4713 14.0018 25.4713C10.2638 25.4713 9.81925 25.4555 8.344 25.389C6.979 25.326 6.23875 25.0985 5.74525 24.906C5.13771 24.6807 4.5878 24.3233 4.13525 23.8595C3.67023 23.4073 3.31157 22.8574 3.08525 22.2495C2.8945 21.7577 2.66525 21.0158 2.604 19.6508C2.5375 18.1755 2.5235 17.7327 2.5235 13.993C2.5235 10.2532 2.5375 9.814 2.604 8.33875C2.667 6.97375 2.8945 6.23175 3.087 5.73825C3.34075 5.0855 3.64525 4.61825 4.13525 4.12825C4.62525 3.63825 5.09075 3.3355 5.74525 3.08175C6.23875 2.88925 6.979 2.66175 8.344 2.59875C9.6355 2.53925 10.136 2.52175 12.7452 2.52V2.5235ZM21.4742 4.8475C21.2536 4.8475 21.0352 4.89095 20.8313 4.97538C20.6275 5.05981 20.4423 5.18356 20.2863 5.33956C20.1303 5.49556 20.0066 5.68076 19.9221 5.88459C19.8377 6.08842 19.7942 6.30688 19.7942 6.5275C19.7942 6.74812 19.8377 6.96658 19.9221 7.17041C20.0066 7.37423 20.1303 7.55944 20.2863 7.71544C20.4423 7.87144 20.6275 7.99519 20.8313 8.07962C21.0352 8.16405 21.2536 8.2075 21.4742 8.2075C21.9198 8.2075 22.3471 8.0305 22.6622 7.71544C22.9773 7.40038 23.1542 6.97306 23.1542 6.5275C23.1542 6.08194 22.9773 5.65462 22.6622 5.33956C22.3471 5.0245 21.9198 4.8475 21.4742 4.8475ZM14.0018 6.811C13.0481 6.79612 12.1011 6.9711 11.2157 7.32575C10.3304 7.68039 9.5244 8.20762 8.84476 8.87674C8.16513 9.54586 7.62539 10.3435 7.25697 11.2232C6.88856 12.1029 6.69883 13.0471 6.69883 14.0009C6.69883 14.9546 6.88856 15.8988 7.25697 16.7785C7.62539 17.6583 8.16513 18.4559 8.84476 19.125C9.5244 19.7941 10.3304 20.3214 11.2157 20.676C12.1011 21.0306 13.0481 21.2056 14.0018 21.1908C15.8892 21.1613 17.6894 20.3908 19.0137 19.0457C20.338 17.7005 21.0803 15.8886 21.0803 14.0009C21.0803 12.1132 20.338 10.3012 19.0137 8.95606C17.6894 7.6109 15.8892 6.84045 14.0018 6.811ZM14.0018 9.33275C14.6147 9.33275 15.2216 9.45347 15.7878 9.68802C16.3541 9.92257 16.8686 10.2664 17.302 10.6998C17.7354 11.1332 18.0792 11.6477 18.3137 12.2139C18.5483 12.7802 18.669 13.3871 18.669 14C18.669 14.6129 18.5483 15.2198 18.3137 15.7861C18.0792 16.3523 17.7354 16.8668 17.302 17.3002C16.8686 17.7336 16.3541 18.0774 15.7878 18.312C15.2216 18.5465 14.6147 18.6672 14.0018 18.6672C12.7639 18.6672 11.5768 18.1755 10.7015 17.3002C9.82623 16.425 9.3345 15.2378 9.3345 14C9.3345 12.7622 9.82623 11.575 10.7015 10.6998C11.5768 9.82448 12.7639 9.33275 14.0018 9.33275Z"
+                                        fill="currentColor" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_21_194">
+                                        <rect width="28" height="28" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+    <!-- Nav Section End -->
+
+
+
+
+    <!-- Write Blog Section
+    <h1>Great's Blog</h1>
+    <div id="blogForm">
+        <form action="" method="">
+            <input type="text" name="title" id="blogTitle" placeholder="title">
+            <textarea name="content" id="blogContent" placeholder="content" rows="5"></textarea>
+            <button id="blogBtn" type="submit">Post</button>
+        </form>
+
+    </div>
+    <hr>
+    Write Blog End -->
+
+
+
+
+    <section id="blogDisplay">
+        <div id="blogList">
+            <!-- post1 -->
+            <img id="post1" src="images/Bro. Ebuka 1.webp" alt="picture of Bro. Ebuka">
+            <div class="blog-wrap">
+                <h1 class="blog-title">The Man who Ignited my Code</h1>
+                <p class="blog-content">A tribute to my mentor who transformed my curiosity into structured learning.
+                    His
+                    early encouragement shaped the developer I’m becoming.
+                </p>
+                <br>
+                <p class="blog-content">I was just a curious learner fumbling through HTML tags and CSS rules, endless
+                    youtube videos, not
+                    entirely sure where I was headed. That’s when I met the man who would reshape my learning journey —
+                    <strong>Chukwuebuka Daniel Edeh</strong>.
+                </p>
+                <br>
+
+                <p class="blog-content">He wasn’t just any mentor; he was the kind that calls you out when you’re not
+                    being consistent, the kind that gives you a real-world project even when you don’t feel ready. One
+                    project I’ll never forget — was a simple broker website. To me, it felt like a
+                    mountain. <br> I struggled to understand how to structure it, how to connect styles, how to think
+                    like a
+                    developer. But instead of handing me all the answers, he asked the right questions and guided me
+                    just enough to think independently.</p>
+                <br>
+
+                <p class="blog-content">Even when I disappointed myself by missing deadlines, he didn’t discard me. He
+                    told me, <em class="bold-style">“You are more than this, and you know it.”</em> That phrase stuck
+                    with me and shaped the
+                    way I now approach learning — not as a race, but a journey of continuous improvement.</p>
+                <br>
+
+                <p class="blog-content">Today, every project I touch, every bug I fix, and every skill I build echoes
+                    back to that one man who chose to mentor me with both patience and fire. He ignited my code — and
+                    I’m forever grateful.</p>
+
+            </div>
+
+
+            <!-- Post2 -->
+            <img id="post2" src="images/code.webp" alt="pic of monitor with code">
+            <div class="blog-wrap">
+                <h1 class="blog-title">From Curiosity to Code</h1>
+                <p class="blog-content">How I started from zero, pushed through countless bugs, and finally launched my
+                    first fully functional app. </p>
+                <br>
+                <p class="blog-content">Before I became someone who could build functional web apps and write JavaScript
+                    logic with confidence, I was just a curious guy who asked, “How do websites actually work?”
+                </p>
+                <br>
+                <p class="blog-content">That curiosity led me to learn HTML. I remember being amazed at how a few lines
+                    of code could turn into a visible webpage or the first time I made a css styling apply to a pragraph
+                    text . Then came CSS — colors, layouts, positioning — and the real headache: responsiveness. But I
+                    stuck with it. I watched tutorials, followed walkthroughs, and Googled a lot.</p>
+                <br>
+                <p class="blog-content">Then I met JavaScript. That’s when everything started making sense and getting
+                    chaotic at the same time. I remember working on loops, functions, and DOM manipulation. It felt like
+                    learning a new language — not just technically, but mentally. Still, I kept pushing.</p>
+                <br>
+
+                <p class="blog-content">One of my biggest wins was building an <a class="blog-link"
+                        href="https://orovwodegreat.github.io/Expense-Tracker/">Expense Tracker</a> from scratch. It
+                    started as just another project. But for the first time, I combined everything I had learned: HTML,
+                    CSS, JavaScript — even localStorage. I was writing logic I could explain, code I could debug, and
+                    features I could proudly show off.
+                </p>
+                <br>
+                <p class="blog-content">That moment I saw the tracker update in real time — incomes and expenses neatly
+                    summarized, data stored locally — I knew this wasn’t just a hobby anymore. I was becoming a
+                    developer.
+                </p>
+            </div>
+
+            <!-- Post 3 -->
+            <img id="post3" src="images/beginners tip.webp" alt="pic of note and paper">
+            <div class="blog-wrap">
+                <h1 class="blog-title">Beginner Developer Tip:<span class="blog-part"> What I Wish I Knew When I
+                        Started</span> </h1>
+                <p class="blog-content">A list of practical tips for beginners — including mistakes I made, tools I wish
+                    I
+                    learned earlier, and how I overcame discouragement;
+                </p>
+                <br>
+                <p class="blog-content">As I continued my journey, I faced Hard truths, received honest advice, and
+                    learnt lessons early enough in becoming a developer
+                </p>
+                <br>
+
+                <p class="blog-content">Now, if I could go back and have a coffee chat with my beginner self, here’s
+                    what I’d say:
+                </p>
+                <br>
+                <p class="blog-content">
+                    1. <em class="blog-part">Projects matter more than tutorials:</em> Tutorials give you theory, but
+                    projects give you problems to
+                    solve. My biggest growth happened when I built things like the Expense Tracker. That’s where real
+                    understanding came from — not from watching, but from doing.</p>
+                <br>
+                </p>
+                <p class="blog-content">
+                    2. <em class="blog-part">Your code doesn’t have to be perfect — just functional:</em> I used to
+                    waste
+                    hours trying to make something look or feel “right” instead of getting it working. Now I follow the
+                    MVP mindset — launch something basic, improve it later.</p>
+                <br>
+                </p>
+                <p class="blog-content">
+                    3. <em class="blog-part">Don’t be afraid of bugs — be excited by them:</em> Bugs used to scare me.
+                    Now I see them as puzzles. The satisfaction of fixing a bug you’ve been stuck on all day is
+                    unmatched. It’s part of the thrill of coding.</p>
+                <br>
+                </p>
+                <p class="blog-content">
+                    4. <em class="blog-part">Know your tools:</em> Learning how to use DevTools, localStorage, and
+                    console
+                    logs changed the way I troubleshoot. These tools are your allies — master them early.</p>
+                <br>
+                </p>
+                <p class="blog-content">
+                    5. <em class="blog-part">Community matters:</em> Having a mentor, asking questions, getting feedback
+                    — these are the things that kept me going. You’re not alone, and you’ll go faster when you’re not
+                    coding in a vacuum.
+
+                    If you're just starting out, know this: every expert you admire was once confused too. Keep showing
+                    up. Keep building.</p>
+                <br>
+                </p>
+
+            </div>
+
+            <!-- Post4 -->
+            <img id="post4" src="images/expense tracker.webp" alt="picture of hand holding phone">
+            <div class="blog-wrap">
+                <h1 class="blog-title">Inside My Expense Tracker</h1>
+                <p class="blog-content">A breakdown of my first real-world web app. See how I built it with JavaScript,
+                    structured my logic, and added local storage support </p>
+                <br>
+
+                <p class="blog-content">The Expense Tracker was more than just a school assignment or a coding drill —
+                    it was the first time I turned an idea into something fully functional. </p>
+                <br>
+                <p class="blog-content">I started by designing the UI wireframe with sections for income, expenses, and
+                    a summary display. Then I moved to HTML and CSS to create the structure and layout. The real magic,
+                    however, was in the JavaScript. </p>
+                <br>
+                <p class="blog-content">I wrote functions that took in user input, checked if the category was income or
+                    expense, calculated totals, and dynamically updated the DOM. It felt empowering to see the numbers
+                    update instantly as I typed and submitted. </p>
+                <br>
+                <p class="blog-content">But I didn’t stop there.
+
+                    I wanted persistence — so I added localStorage. That’s when I really understood how data can live in
+                    the browser. <br> I learned how to:
+
+                    Save each transaction using JSON.stringify()
+
+                    Retrieve them using JSON.parse()
+
+                    Dynamically display them on page load
+
+                    Update localStorage when a transaction is deleted </p>
+                <br>
+                <p class="blog-content">The first time I refreshed the page and my data stayed — that was a breakthrough
+                    moment.
+
+                    It may not have had a backend, but it had logic, interaction, and persistence. That project made me
+                    feel like a real developer. And the best part? I could explain every single line of code I wrote.
+
+                    Now, I’m applying the same approach to new projects — like this blog — and the future feels wide
+                    open. </p>
+                <br>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-wrap">
+            <li><a href="https://www.linkedin.com/in/orovwode-great-29b86a282" target="_blank"><svg class="socials"
+                        width="28" height="23" viewBox="0 0 28 28" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_21_190)">
+                            <path
+                                d="M0 2.0055C0 0.89775 0.9205 0 2.05625 0H25.9437C27.0795 0 28 0.89775 28 2.0055V25.9945C28 27.1023 27.0795 28 25.9437 28H2.05625C0.9205 28 0 27.1023 0 25.9945V2.0055ZM8.65025 23.4395V10.7958H4.4485V23.4395H8.65025ZM6.55025 9.0685C8.015 9.0685 8.92675 8.099 8.92675 6.8845C8.9005 5.64375 8.01675 4.7005 6.57825 4.7005C5.13975 4.7005 4.2 5.6455 4.2 6.8845C4.2 8.099 5.11175 9.0685 6.52225 9.0685H6.55025ZM15.1393 23.4395V16.3783C15.1393 16.0003 15.1672 15.6222 15.2792 15.3527C15.582 14.5985 16.2733 13.8162 17.4353 13.8162C18.956 13.8162 19.5632 14.9748 19.5632 16.6758V23.4395H23.765V16.1875C23.765 12.3025 21.693 10.4965 18.928 10.4965C16.6985 10.4965 15.6993 11.7215 15.1393 12.5842V12.628H15.1113L15.1393 12.5842V10.7958H10.9392C10.9917 11.9823 10.9392 23.4395 10.9392 23.4395H15.1393Z"
+                                fill="currentColor" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_21_190">
+                                <rect width="28" height="28" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+            </li>
+
+            <li><a href="https://x.com/Orovwode_Great" target="_blank"><svg class="socials" width="28" height="23"
+                        viewBox="0 0 28 23" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M8.7955 22.7512C19.362 22.7512 25.1422 13.996 25.1422 6.41671C25.1446 6.17055 25.1411 5.92438 25.1318 5.67821C26.2567 4.86314 27.2279 3.85463 28 2.69971C26.9484 3.16219 25.8346 3.46762 24.6943 3.60621C25.8958 2.8882 26.7957 1.75823 27.2265 0.426463C26.0982 1.09622 24.8626 1.56573 23.5742 1.81421C22.7083 0.892004 21.5625 0.281069 20.3141 0.0760386C19.0658 -0.128992 17.7848 0.0833256 16.6693 0.680103C15.5539 1.27688 14.6664 2.22481 14.1443 3.37707C13.6222 4.52932 13.4946 5.8216 13.7812 7.05371C11.4969 6.93972 9.26213 6.34656 7.22195 5.31275C5.18177 4.27894 3.38183 2.8276 1.939 1.05296C1.20677 2.31846 0.983413 3.81514 1.31426 5.23928C1.64511 6.66343 2.50538 7.90836 3.7205 8.72146C2.80947 8.69203 1.91834 8.44736 1.12 8.00746V8.08621C1.12223 9.41163 1.58168 10.6957 2.42082 11.7216C3.25995 12.7476 4.42736 13.4526 5.726 13.7177C5.23297 13.8536 4.72366 13.9213 4.21225 13.919C3.85161 13.9227 3.49154 13.8893 3.13775 13.8192C3.50419 14.9607 4.21886 15.9589 5.18146 16.6735C6.14407 17.3882 7.30628 17.7835 8.505 17.804C6.46818 19.4017 3.95368 20.2688 1.365 20.2662C0.908772 20.2696 0.452806 20.2433 0 20.1875C2.62749 21.863 5.67922 22.7526 8.7955 22.7512Z"
+                            fill="currentColor" />
+                    </svg>
+            </li>
+
+            <li><a href="https://github.com/OrovwodeGreat" target="_blank"><svg class="socials" width="28" height="28"
+                        viewBox="0 0 28 28" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14 0C6.265 0 0 6.265 0 14C0 20.195 4.0075 25.4275 9.5725 27.2825C10.2725 27.405 10.535 26.985 10.535 26.6175C10.535 26.285 10.5175 25.1825 10.5175 24.01C7 24.6575 6.09 23.1525 5.81 22.365C5.6525 21.9625 4.97 20.72 4.375 20.3875C3.885 20.125 3.185 19.4775 4.3575 19.46C5.46 19.4425 6.2475 20.475 6.51 20.895C7.77 23.0125 9.7825 22.4175 10.5875 22.05C10.71 21.14 11.0775 20.5275 11.48 20.1775C8.365 19.8275 5.11 18.62 5.11 13.265C5.11 11.7425 5.6525 10.4825 6.545 9.5025C6.405 9.1525 5.915 7.7175 6.685 5.7925C6.685 5.7925 7.8575 5.425 10.535 7.2275C11.655 6.9125 12.845 6.755 14.035 6.755C15.225 6.755 16.415 6.9125 17.535 7.2275C20.2125 5.4075 21.385 5.7925 21.385 5.7925C22.155 7.7175 21.665 9.1525 21.525 9.5025C22.4175 10.4825 22.96 11.725 22.96 13.265C22.96 18.6375 19.6875 19.8275 16.5725 20.1775C17.08 20.615 17.5175 21.455 17.5175 22.7675C17.5175 24.64 17.5 26.145 17.5 26.6175C17.5 26.985 17.7625 27.4225 18.4625 27.2825C21.2422 26.3449 23.6577 24.5589 25.3687 22.176C27.0797 19.7932 28 16.9335 28 14C28 6.265 21.735 0 14 0Z"
+                            fill="currentColor" />
+                    </svg>
+            </li>
+
+            <li><a href="https://www.instagram.com/orovwodegreat/" target="_blank">
+                    <svg class="socials" width="28" height="28" viewBox="0 0 28 28" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_21_194)">
+                            <path
+                                d="M14 0C10.2007 0 9.723 0.0175 8.23025 0.084C6.7375 0.154 5.72075 0.3885 4.83 0.735C3.89523 1.08557 3.04875 1.63695 2.35025 2.35025C1.63695 3.04875 1.08557 3.89523 0.735 4.83C0.3885 5.719 0.15225 6.7375 0.084 8.225C0.0175 9.72125 0 10.1973 0 14.0018C0 17.8028 0.0175 18.2788 0.084 19.7715C0.154 21.2625 0.3885 22.2792 0.735 23.17C1.09375 24.0905 1.5715 24.871 2.35025 25.6497C3.12725 26.4285 3.90775 26.908 4.82825 27.265C5.72075 27.6115 6.73575 27.8477 8.22675 27.916C9.72125 27.9825 10.1972 28 14 28C17.8028 28 18.277 27.9825 19.7715 27.916C21.2608 27.846 22.281 27.6115 23.1718 27.265C24.1059 26.9142 24.9518 26.3628 25.6497 25.6497C26.4285 24.871 26.9062 24.0905 27.265 23.17C27.6097 22.2792 27.846 21.2625 27.916 19.7715C27.9825 18.2788 28 17.8028 28 14C28 10.1972 27.9825 9.72125 27.916 8.22675C27.846 6.7375 27.6097 5.719 27.265 4.83C26.9144 3.89523 26.3631 3.04875 25.6497 2.35025C24.9513 1.63695 24.1048 1.08557 23.17 0.735C22.2775 0.3885 21.259 0.15225 19.7697 0.084C18.2752 0.0175 17.801 0 13.9965 0H14ZM12.7452 2.5235H14.0018C17.7398 2.5235 18.1825 2.53575 19.6577 2.604C21.0227 2.66525 21.7647 2.8945 22.2582 3.08525C22.911 3.339 23.3782 3.6435 23.8682 4.1335C24.3582 4.6235 24.661 5.089 24.9148 5.7435C25.1073 6.23525 25.3348 6.97725 25.396 8.34225C25.4643 9.8175 25.4783 10.2603 25.4783 13.9965C25.4783 17.7328 25.4643 18.1772 25.396 19.6525C25.3348 21.0175 25.1055 21.7578 24.9148 22.2513C24.6887 22.8583 24.3307 23.4076 23.8665 23.8595C23.3765 24.3495 22.911 24.6523 22.2565 24.906C21.7665 25.0985 21.0245 25.326 19.6577 25.389C18.1825 25.4555 17.7398 25.4713 14.0018 25.4713C10.2638 25.4713 9.81925 25.4555 8.344 25.389C6.979 25.326 6.23875 25.0985 5.74525 24.906C5.13771 24.6807 4.5878 24.3233 4.13525 23.8595C3.67023 23.4073 3.31157 22.8574 3.08525 22.2495C2.8945 21.7577 2.66525 21.0158 2.604 19.6508C2.5375 18.1755 2.5235 17.7327 2.5235 13.993C2.5235 10.2532 2.5375 9.814 2.604 8.33875C2.667 6.97375 2.8945 6.23175 3.087 5.73825C3.34075 5.0855 3.64525 4.61825 4.13525 4.12825C4.62525 3.63825 5.09075 3.3355 5.74525 3.08175C6.23875 2.88925 6.979 2.66175 8.344 2.59875C9.6355 2.53925 10.136 2.52175 12.7452 2.52V2.5235ZM21.4742 4.8475C21.2536 4.8475 21.0352 4.89095 20.8313 4.97538C20.6275 5.05981 20.4423 5.18356 20.2863 5.33956C20.1303 5.49556 20.0066 5.68076 19.9221 5.88459C19.8377 6.08842 19.7942 6.30688 19.7942 6.5275C19.7942 6.74812 19.8377 6.96658 19.9221 7.17041C20.0066 7.37423 20.1303 7.55944 20.2863 7.71544C20.4423 7.87144 20.6275 7.99519 20.8313 8.07962C21.0352 8.16405 21.2536 8.2075 21.4742 8.2075C21.9198 8.2075 22.3471 8.0305 22.6622 7.71544C22.9773 7.40038 23.1542 6.97306 23.1542 6.5275C23.1542 6.08194 22.9773 5.65462 22.6622 5.33956C22.3471 5.0245 21.9198 4.8475 21.4742 4.8475ZM14.0018 6.811C13.0481 6.79612 12.1011 6.9711 11.2157 7.32575C10.3304 7.68039 9.5244 8.20762 8.84476 8.87674C8.16513 9.54586 7.62539 10.3435 7.25697 11.2232C6.88856 12.1029 6.69883 13.0471 6.69883 14.0009C6.69883 14.9546 6.88856 15.8988 7.25697 16.7785C7.62539 17.6583 8.16513 18.4559 8.84476 19.125C9.5244 19.7941 10.3304 20.3214 11.2157 20.676C12.1011 21.0306 13.0481 21.2056 14.0018 21.1908C15.8892 21.1613 17.6894 20.3908 19.0137 19.0457C20.338 17.7005 21.0803 15.8886 21.0803 14.0009C21.0803 12.1132 20.338 10.3012 19.0137 8.95606C17.6894 7.6109 15.8892 6.84045 14.0018 6.811ZM14.0018 9.33275C14.6147 9.33275 15.2216 9.45347 15.7878 9.68802C16.3541 9.92257 16.8686 10.2664 17.302 10.6998C17.7354 11.1332 18.0792 11.6477 18.3137 12.2139C18.5483 12.7802 18.669 13.3871 18.669 14C18.669 14.6129 18.5483 15.2198 18.3137 15.7861C18.0792 16.3523 17.7354 16.8668 17.302 17.3002C16.8686 17.7336 16.3541 18.0774 15.7878 18.312C15.2216 18.5465 14.6147 18.6672 14.0018 18.6672C12.7639 18.6672 11.5768 18.1755 10.7015 17.3002C9.82623 16.425 9.3345 15.2378 9.3345 14C9.3345 12.7622 9.82623 11.575 10.7015 10.6998C11.5768 9.82448 12.7639 9.33275 14.0018 9.33275Z"
+                                fill="currentColor" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_21_194">
+                                <rect width="28" height="28" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </a>
+            </li>
+        </div>
+
+        <img class="footer-img" src="images/GREAT’S BLOG LOGO 2.png" alt="Great's Blog Logo">
+        <br>
+        <a class="footer-link" href="#">Privacy Policy |</a>
+        <a class="footer-link" href="#">Terms & Conditions |</a>
+        <a class="footer-link" href="#">Contact |</a>
+        <a class="footer-link" href="#">Contribute</a>
+        <p class="footer-text">© 2025 Great's Blog. All rights reserved</p>
+    </footer>
+
+    <script src="blog.js"></script>
+</body>
+
+</html>
