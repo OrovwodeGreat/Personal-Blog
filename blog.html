@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Great's Blog | Blog List</title>
     <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="Query Blog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -19,13 +20,7 @@
         <header>
             <img src="images/GREAT’S BLOG LOGO 1.png" class="logo-1" alt="logo">
 
-            <div id="menu-wrap">
-                 <svg id="menu" width="22" height="22" viewBox="0 0 25 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect width="25" height="4.28571" fill="black" />
-                <rect y="6.85718" width="25" height="4.28571" fill="black" />
-                <rect y="13.7144" width="25" height="4.28571" fill="black" />
-            </svg>
-            </div>
+            <img id="menu" src="images/MenuBtn.png" alt="">
            
         </header>
 
@@ -112,7 +107,8 @@
     <section id="blogDisplay">
         <div id="blogList">
             <!-- post1 -->
-            <img id="post1" src="images/Bro. Ebuka 1.webp" alt="picture of Bro. Ebuka">
+            <div id="post1">
+                <img src="images/Bro. Ebuka 1.webp" alt="picture of Bro. Ebuka">
             <div class="blog-wrap">
                 <h1 class="blog-title">The Man who Ignited my Code</h1>
                 <p class="blog-content">A tribute to my mentor who transformed my curiosity into structured learning.
@@ -147,10 +143,12 @@
                     I’m forever grateful.</p>
 
             </div>
+            </div>
 
 
             <!-- Post2 -->
-            <img id="post2" src="images/code.webp" alt="pic of monitor with code">
+           <div id="post2">
+             <img src="images/code.webp" alt="pic of monitor with code">
             <div class="blog-wrap">
                 <h1 class="blog-title">From Curiosity to Code</h1>
                 <p class="blog-content">How I started from zero, pushed through countless bugs, and finally launched my
@@ -182,9 +180,11 @@
                     developer.
                 </p>
             </div>
+           </div>
 
             <!-- Post 3 -->
-            <img id="post3" src="images/beginners tip.webp" alt="pic of note and paper">
+            <div id="post3">
+                <img  src="images/beginners tip.webp" alt="pic of note and paper">
             <div class="blog-wrap">
                 <h1 class="blog-title">Beginner Developer Tip:<span class="blog-part"> What I Wish I Knew When I
                         Started</span> </h1>
@@ -240,8 +240,11 @@
 
             </div>
 
+            </div>
+
             <!-- Post4 -->
-            <img id="post4" src="images/expense tracker.webp" alt="picture of hand holding phone">
+            <div id="post4">
+                <img src="images/expense tracker.webp" alt="picture of hand holding phone">
             <div class="blog-wrap">
                 <h1 class="blog-title">Inside My Expense Tracker</h1>
                 <p class="blog-content">A breakdown of my first real-world web app. See how I built it with JavaScript,
@@ -283,6 +286,7 @@
                 <br>
 
 
+            </div>
             </div>
         </div>
     </section>
@@ -343,6 +347,8 @@
         <img class="footer-img" src="images/GREAT’S BLOG LOGO 2.png" alt="Great's Blog Logo">
         <br>
         <a class="footer-link" href="#">Privacy Policy |</a>
+        <a class="footer-link" href="index.html">Home |</a>
+        <a class="footer-link" href="blog.html">Blog |</a>
         <a class="footer-link" href="#">Terms & Conditions |</a>
         <a class="footer-link" href="#">Contact |</a>
         <a class="footer-link" href="#">Contribute</a>

@@ -1,0 +1,257 @@
+
+/* media query */
+@media all and (min-width:400px) {
+
+    .hero {
+        padding-bottom: 5.5rem;
+    }
+
+    .hero-wrap p {
+        padding: 0rem 2rem;
+    }
+
+    .blog .post{
+        margin:1rem;
+    }
+    .blog .post a img{
+        width:350px ;
+    }
+
+}
+
+/* media query */
+
+@media all and (min-width:576px) {
+    .header {
+        margin-bottom: 4rem;
+    }
+
+    header img.logo-1 {
+        width: 170px;
+    }
+
+    .blog h1 {
+        font-size: 2rem;
+        padding: 0rem 1.2rem;
+    }
+
+    .blog .blog-content {
+        font-size: 1.2rem;
+        padding: 0rem 1.2rem;
+    }
+    .blog .post{
+        margin: 1.5rem;
+    }
+    .blog .post a img{
+        width:450px ;
+    }
+}
+
+@media all and (min-width:768px) {
+    .hero .hero-part{
+        padding: 10.5rem 0.7rem;
+    }
+    .hero-wrap h1 {
+        font-size: 3rem;
+    }
+
+    .hero .hero-wrap p {
+        font-size: 1.3rem;
+    }
+
+    .hero .hero-btn {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+    .blog .post.special{
+        flex-direction: column;
+    } 
+    
+    .blog-wrap .blog-content, .blog-wrap h1{
+        padding-left: 0rem;
+    }
+    .special .blue {
+        font-size: inherit;
+    }
+    
+    /* .special .blog-wrap  h1{
+        font-size: 3rem;
+    }
+    .special .blog-wrap  .blog-content{
+        font-size: 1.8rem;
+    } */
+    .special .blog-wrap  .blog-link{
+        font-size: small;
+    }
+    .special .owner .author, .special .owner .date{
+        font-size: inherit ;
+    }
+
+
+    
+    .blog .post{
+        flex-direction: row;
+        padding: 1rem;
+    }
+      
+    .blog .post a img{
+        width: 300px;
+        justify-self: center;
+    }
+    #ebukaPic{
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0rem 2rem;
+    }
+
+    #menu,
+    #close {
+        display: none;
+        /* Hide hamburger and close icons */
+    }
+
+    #links {
+        position: static;
+        width: auto;
+        height: auto;
+        box-shadow: none;
+        background-color: transparent;
+        transform: translateX(0);
+        /* Ensure it's visible */
+        transition: none;
+        display: flex;
+        align-items: center;
+    }
+
+    #links ul {
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+        /* space between links */
+    }
+
+    #links ul .normal-link {
+        margin-bottom: 0;
+        /* Remove bottom margin on large screens */
+    }
+
+    svg.socials {
+        align-items: center;
+        vertical-align: middle;
+    }
+
+
+    .hero .hero-part {
+        flex-direction: row;
+        margin-top: 8rem;
+        margin-bottom: 2rem;
+        padding: 2rem 5rem 2rem 5rem;
+        gap: 4rem;
+    }
+
+    .hero .hero-part img {
+        margin-left: 4rem;
+        /* width: 319px;
+        height: 359px; */
+    }
+
+    .hero .hero-wrap {
+        vertical-align: middle;
+        align-items: center;
+        text-align: left;
+        padding-top: 3rem;
+    }
+
+    .hero .hero-wrap h1 {
+        font-size: 3.7rem;
+    }
+
+    .hero .hero-wrap p {
+        font-size: 1.4rem;
+        padding: 0rem 0rem;
+        line-height: 1.7rem;
+    }
+
+    .hero .hero-wrap .hero-btn {
+        margin: 1rem 0rem;
+    }
+
+    /* .blog {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        padding: 0rem 3em;
+    } */
+
+    .blog .post {
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .blog .post img {
+        width: 300px;
+    }
+
+    .blog-wrap h1 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+}
+
+
+@media all and (min-width:1280px) {
+    .hero .hero-part {
+        /* gap: 5rem; */
+        padding: 5rem 10rem;
+    }
+    .hero .hero-wrap h1 {
+        font-size: 4.5rem;
+    }
+    .hero .hero-wrap .hero-btn {
+        font-size: 1.65rem;
+        margin-top: 2rem;
+    }
+    .hero-part .hero-wrap p{
+        font-size: 26px;
+}
+
+.blog{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0rem 1rem;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+.blog .special{
+    /* grid-column: 1/3; */
+}
+  .blog .post.special{
+        flex-direction:row;  
+    } 
+     #ebukaPic{
+        width: 400px;
+    }
+
+    .blog-wrap h1 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .blog  .blog-content{
+        font-size: 16px;
+    }
+
+}
+

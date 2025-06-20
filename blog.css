@@ -40,11 +40,11 @@ nav header .logo-1 {
 }
 
 nav header #menu {
-    width: 21px;
-    height: 18px;
+    width: 36px;
+    height: 28.5px;
+    padding: 0.35rem;
     float: right;
     align-self: center;
-    cursor: pointer;
 }
 #menu-wrap {
     padding: 1rem;
@@ -240,6 +240,11 @@ textarea {
         /* color: #670303; */
         font-weight: bold;
     }
+    .highlight{
+  border: 2px solid #3b82f6;
+  background-color: #ebf8ff;
+  transition: all 0.3s ease-in-out;
+}
 /* BLOG SECTION END */
 
 /* FOOTER SECTION START */
@@ -293,85 +298,27 @@ footer .footer-link:hover{
 /* FOOTER SECTION START */
 
 
-/* MEDIA QUERY SECTION */
-@media all and (min-width:576px){
-    header img.logo-1 {
-    width: 170px;
-}
+
+/*   Developer Diary:
+Personal    growth, projects, struggles
+Frontend Projects	How-tos, walkthroughs, project breakdowns
 
 
-    #blogDisplay #blogList {
-        padding:0rem 3rem;
-    }
-    #blogList .blog-wrap h1{
-        font-size: 2rem;
-    }
-    #blogList .blog-wrap p{
-        font-size: 1.15rem;
-    }
-}
+           UI/UX:	
+Visual design insights, layout fixes
 
-@media all and (min-width:991px){
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0rem 2rem;
-    }
 
-    #menu,
-    #close {
-        display: none;
-        /* Hide hamburger and close icons */
-    }
+        Tools & Tips:
+VS Code, GitHub, Live Server, etc.
 
-    #links {
-        position: static;
-        width: auto;
-        height: auto;
-        box-shadow: none;
-        background-color: transparent;
-        transform: translateX(0);
-        /* Ensure it's visible */
-        transition: none;
-        display: flex;
-        align-items: center;
-    }
 
-    #links ul {
-        flex-direction: row;
-        align-items: center;
-        gap: 2rem;
-        /* space between links */
-    }
+         Student Life:	
+Balancing school with coding
+ 
 
-    #links ul .normal-link {
-        margin-bottom: 0;
-        /* Remove bottom margin on large screens */
-    }
+           Mentorship:	
+Lessons from being mentored
 
-    svg.socials {
-        align-items: center;
-        vertical-align: middle;
-    }
 
-      #blogDisplay #blogList {
-        padding:1rem 5rem;
-    }
-     #blogList .blog-wrap h1{
-        font-size: 3rem;
-    }
-    #blogList .blog-wrap p{
-        font-size: 1.7rem;
-    }
-}
-
-@media all and (min-width:1280px){
-    #blogDisplay #blogList {
-        padding:2rem 7rem;
-    }
-       #blogList .blog-wrap h1{
-        margin-top: 3rem;
-    }
-  
-}
+            Real Talk:
+Fears, wins, mindset shifts */
