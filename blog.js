@@ -1,37 +1,38 @@
 // menu button logic
 var menuBtn = document.getElementById("menu");
-var menu = document.getElementById("links");
+var menuLinks = document.getElementById("links"); // Renamed to avoid confusion with menuBtn
 var closeBtn = document.getElementById("close");
-var heroBtn = document.getElementById("btnClick");
-
-// heroBtn.addEventListener("click", onClick)
-
-// function onClick(){
-//   this.classList.add("hero-btn.click")
-// }
-
 
 //  closeBtn.onclick = () => {
-//   menu.classList.remove("active");
+//   menuLinks.classList.remove("active"); // This was an alternative way, keeping the addEventListener approach
 // };
 
-menuBtn.addEventListener("click", function () {
-  if (!links.classList.contains("active")) {
-    links.classList.add("active");
-  }
-});
+if (menuBtn && menuLinks) {
+  menuBtn.addEventListener("click", function () {
+    if (!menuLinks.classList.contains("active")) {
+      menuLinks.classList.add("active");
+    }
+  });
+}
 
-closeBtn.addEventListener("click", function () {
-  if (links.classList.contains("active")) {
-    links.classList.remove("active");
-  }
-});
+if (closeBtn && menuLinks) {
+  closeBtn.addEventListener("click", function () {
+    if (menuLinks.classList.contains("active")) {
+      menuLinks.classList.remove("active");
+    }
+  });
+}
 
-document.addEventListener("click", function (e) {
-  if (!menu.contains(e.target) && e.target !== menuBtn) {
-    menu.classList.remove("active");
-  }
-});
+if (menuLinks && menuBtn) { // Ensure both are present for this logic
+  document.addEventListener("click", function (e) {
+    // If the click is outside the menuLinks and not on the menuBtn itself
+    if (!menuLinks.contains(e.target) && e.target !== menuBtn) {
+      if (menuLinks.classList.contains("active")) {
+        menuLinks.classList.remove("active");
+      }
+    }
+  });
+}
 
 // HIGHLIGHT POST WHEN READ MORE LINK IS CLICKED
 document.addEventListener("DOMContentLoaded", () => {
@@ -52,37 +53,3 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 });
-
-// // blog list display logic
-//   var title = document.getElementById("blogTitle");
-// var content = document.getElementById("blogContent");
-// var btn = document.getElementById("blogBtn");
-// var blogForm = document.getElementById("blogForm");
-
-// var storedPost = JSON.parse(localStorage.getItem("posts"));
-
-// btn.addEventListener("click", submitInput);
-
-// function submitInput(x) {
-//     x.preventDefault();
-
-//    var collectPost = [
-//     {
-//       title: title.value,
-//       content: content.value
-//     }
-//   ];
-
-// //   localStorage.setItem("posts", JSON.stringify(collectPost));
-// //   var storedPost = JSON.parse(localStorage.getItem("posts")) || [];
-
-// //   var blogList = document.getElementById("blogList");
-// //   blogList.innerHTML = `
-// //   <div class="blogListStyle">
-// //   <div class="blogListWrap">
-// //   <h3>${storedPost[0].title}</h3>
-// //   <p>${storedPost[0].content}</p>
-// //   </div>
-// //   </div>
-// // `;
-// // }
